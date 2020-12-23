@@ -59,7 +59,7 @@ tasks.withType(Jar) {
 }
 
 minecraft {
-    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
     mappings channel: 'snapshot', version: '20201028-1.16.3'
     runs {
         client {
@@ -107,7 +107,7 @@ configurations {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.7'
+    minecraft 'net.minecraftforge:forge:1.16.4-35.1.12'
     // ? kotlin
     compile 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21'
     compile 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.21'
