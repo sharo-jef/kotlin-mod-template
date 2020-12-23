@@ -6,7 +6,7 @@
     VSCodeを使用する場合、<a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Better Comments</a>をインストールすると書き換え位置がわかりやすくなる。
 </div>
 
-Minecraft Forge Version: 1.16.4-35.1.7
+Minecraft Forge Version: 1.16.4-35.1.12
 
 # 初期化
 
